@@ -1,0 +1,89 @@
+.mainSection{
+  /* width: 100%; */
+  margin-top: 70px;
+}
+.section1{
+  display: flex;
+  padding: 10px 20px;
+  
+}
+.section1WrapperSupporter{
+margin: 0 auto;
+  width: auto;
+  display: flex;
+   gap: 40px;
+}
+.section1Wrapper{
+  background-color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /* justify-content:center; */
+ 
+  padding: 30px 10px;
+  overflow-x: auto;
+  &::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+}
+@media screen and (max-width: 1130px){
+  .section1Wrapper{
+    width: calc(100% + 40px);
+
+  }
+
+}
+.section1Category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100px; */
+  
+  
+}
+.section1Category span{
+  font-size: 14px;
+  font-weight: 500;
+}
+.section1Category select{
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+.categoryImg{
+  width: 60px;
+  /* height: 80px; */
+}
+
+.section2{
+  margin: 20px 20px 30px 20px;
+}
+.carousel-item{
+  height: 400px;
+}
+.carousel-item img{
+  object-fit: cover;
+  height: 400px;
+}
+
+@media screen and (max-width: 638px){
+  .carousel-item img{
+  height: 300px;
+
+  }
+  .carousel-item{
+  height: 300px;
+
+  }
+}
+@media screen and (max-width: 492px){
+  .carousel-item img{
+  height: 200px;
+
+  }
+  .carousel-item{
+  height: 200px;
+
+  }
+}

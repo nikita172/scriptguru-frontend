@@ -1,0 +1,27 @@
+.appContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader{
+  /* background-color: #e6e6e6; */
+  width: 1000px;
+  height: 20px;
+  margin-bottom: 10px;
+   /* background-size: 1000px 1000px; */
+ background: linear-gradient(
+    100deg,
+    #e8e8e8 20%,
+    #f4f4f4 50%,
+    #e8e8e8 60%
+  );
+  animation: placeholderShimmer 1.5s linear infinite;
+}
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
