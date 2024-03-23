@@ -64,10 +64,10 @@ const Main = () => {
       <section className='section2'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div className="carousel-item">
+            <div className="carousel-item active">
               <img src="https://miro.medium.com/v2/resize:fit:1100/1*tU40qUhmMtZR4BlbSMb0Kw.jpeg" class="d-block w-100" alt="..." />
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <img src="https://img.freepik.com/free-vector/flat-shopping-center-twitter-header_23-2149330482.jpg" class="d-block w-100" alt="..." />
             </div>
 
